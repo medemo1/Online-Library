@@ -1,0 +1,96 @@
+<html>
+    <head>
+        <title></title>
+        <style>
+             body{
+                background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/disp/67d89460550773.5a512c466d624.gif');background-size: cover;background-repeat: no-repeat;
+                
+            }
+        
+        
+            .section1{
+             display:flex;
+             justify-content:space-around;
+             align-items:center;
+             background-color:rgba(0,0,0,0.5);
+             box-shadow:8px 8px 15px}
+             .logo{
+             width:40%
+         }
+         .maina{ 
+             width:70%
+         }
+         .link1{
+             color:white;
+             font-size:20px;
+             text-decoration:none;
+             padding:30px
+         }
+         img{
+             margin-left:25px
+         }
+         a:hover{background-color:rgba(0,0,0,0.8);
+         border-radius:20px;transform:scale(1.1)
+
+         }
+         .maina:hover{
+            transform:scale(1.1)
+         }
+         h1{
+             text-align:center;
+             color:white
+         }
+         form{color:white;
+             border:1px solid black;
+             margin-left:450px;
+             background-color:rgba(0,0,0,0.5);
+             box-shadow:8px 5px 10px black;
+             text-align:center;
+             width:400px;
+             padding:15px
+
+         }
+         input{
+             height:40px;width:250px
+         }
+         .submit{
+             background-color: royalblue;
+             font-size: 20px;
+             height:30px;
+             color:white
+         }
+        </style>
+    </head>
+    <body>
+        <section class="section1">
+            <div class="logo"> 
+             <img src="https://static8.depositphotos.com/1011646/882/i/450/depositphotos_8825900-stock-photo-neon-sign-letter-m.jpg" alt="LOGO" width=100px height=100px class="image">   
+            <label style="font-size: xx-small;color:white;font-family: Georgia, 'Times New Roman', Times, serif;">Library</label>
+            </div>
+            <div class="maina">
+                <a href="index.html" class="link1">E Books</a>
+                <a href="project.html"class="link1">Free Books</a>
+                <a href="project2.html"class="link1">Contact Us</a>
+                <a href=""class="link1">Login or Sign Up</a>
+                <a href="#"class="link1">Membership</a>
+            </div>
+        </section>
+        <br><br>
+        <h1>Contact Us</h1>
+        <form>
+        Name<br>
+        <input type="text" name="firstname" placeholder="Enter Your Name"><br><br><br>
+        Email Id<br>
+        <input type="email" name="emailid" placeholder="Enter Your Email Id"><br><br><br>
+        Mobile No.<br>
+        <input type="text" name="phone" placeholder="Enter Your Mobile No."><br><br><br>
+        Password<br>
+        <input type="password" name="word" placeholder="Enter Your Password"><br><br><br>
+        What Do You Want To Ask Us?<br>
+        <input type="text" name="question" placeholder="Enter Your Query"><br><br><br>
+        Are You A Robot?<br>
+        <input type="checkbox" name="robot"><br><br><br>
+        <input type="submit" name="submit" class="submit"><br><br>
+        </form>
+    </body>
+</html>
